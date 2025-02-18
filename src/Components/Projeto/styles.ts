@@ -5,7 +5,7 @@ export const Card = styled.div`
   padding: 16px;
 `
 export const LinkButton = styled.a`
-  color: ${(props) => props.theme.corDeFundo};
+  color: ${(props) => props.theme.corPrincipal};
   font-size: 14px;
   background-color: ${(props) => props.theme.corFundoBotao};
   text-decoration: none;
@@ -13,4 +13,5 @@ export const LinkButton = styled.a`
   display: inline-block;
   cursor: pointer;
   margin-top: 24px;
+  border-radius: 8px;
 `

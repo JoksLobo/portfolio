@@ -2,7 +2,7 @@ const temaDark = {
   corPrincipal: '#fff',
   corSecundaria: '#eee',
   corDeFundo: '#282a35',
-  corFundoBotao: '#fff',
+  corFundoBotao: '#e63946',
   corDaBorda: '#c1c1c1'
 }
 

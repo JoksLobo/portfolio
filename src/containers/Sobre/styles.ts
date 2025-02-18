@@ -13,3 +13,12 @@ export const GitHubSecao = styled.div`
     }
   }
 `
+export const TecSecao = styled.div`
+  margin-bottom: 32px;
+
+  img {
+    width: 64px;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+`
