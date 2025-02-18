@@ -5,7 +5,11 @@ import Paragrafo from '../../Components/Paragrafo/index.tsx'
 
 import { Descricao, ThemeButton, SidebarContainer } from './styles.ts'
 
-const Sidebar = () => (
+type Props = {
+  trocaTema: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -16,7 +20,7 @@ const Sidebar = () => (
       <Descricao tipo="principal" fontSize={12}>
         Engenheiro Front-end
       </Descricao>
-      <ThemeButton>Trocar tema</ThemeButton>
+      <ThemeButton onClick={props.trocaTema}>Trocar tema</ThemeButton>
     </SidebarContainer>
   </aside>
 )
