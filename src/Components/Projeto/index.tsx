@@ -3,11 +3,19 @@ import Paragrafo from '../Paragrafo/index.tsx'
 
 import { Card, LinkButton } from './styles.ts'
 
-const Projeto = () => (
+type ProjetoProps = {
+  Title: string
+  Content: string
+  Link: string
+}
+
+const Projeto = ({ Title, Content, Link }: ProjetoProps) => (
   <Card>
-    <Titulo>Projeto Lista de Tarefas</Titulo>
-    <Paragrafo tipo="secundario">Lista de tarefas feita com VueJs</Paragrafo>
-    <LinkButton>Visualizar</LinkButton>
+    <Titulo>{Title}</Titulo>
+    <Paragrafo tipo="secundario">{Content}</Paragrafo>
+    <a href={Link}>
+      <LinkButton>Visualizar</LinkButton>
+    </a>
   </Card>
 )
 

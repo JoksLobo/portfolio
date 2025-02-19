@@ -8,10 +8,17 @@ const Projetos = () => (
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <Projeto />
+        <Projeto
+          Title="Jinn Simulator"
+          Content="Simulador de Jinn (Gênio) criado para mostrar animações e elementos de css."
+          Link="http://google.com"
+        />
       </li>
       <li>
-        <Projeto />
+        <Projeto
+          Title="Landing Page com tailwind"
+          Content="Landing Page responsiva com tema dark/light usando o tailwind."
+        />
       </li>
       <li>
         <Projeto />
