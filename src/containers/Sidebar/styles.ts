@@ -4,6 +4,12 @@ import { P } from '../../Components/Paragrafo/styles.ts'
 export const Descricao = styled(P)`
   margin-top: 24px;
   margin-bottom: 40px;
+
+  a {
+    text-decoration: none;
+    color: #b03052;
+    font-size: 16px;
+  }
 `
 export const ThemeButton = styled.button`
   border-radius: 12px;

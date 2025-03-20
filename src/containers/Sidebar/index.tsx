@@ -18,7 +18,8 @@ const Sidebar = (props: Props) => (
         JoksLobo
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
-        Engenheiro Front-end
+        Engenheiro Front-end <br />
+        <a href="https://github.com/JoksLobo">GitHub</a>
       </Descricao>
       <ThemeButton onClick={props.trocaTema}>Trocar tema</ThemeButton>
     </SidebarContainer>
