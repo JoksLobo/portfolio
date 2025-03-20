@@ -9,9 +9,10 @@ const Sobre = () => (
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo tipo="principal">
       Me chamo Jocson de Souza Lobo (Joks Lobo), desenvolvedor Full Stack Python
-      em formação pela EBAC. Busco experiência na área de Front-end. Tenho
-      facilidade de trabalhar em equipe, focado e aberto a conselhos e critícas
-      em relação ao meu trabalho.
+      em formação pela EBAC e recem iniciando curso em Unity para
+      desenvolvimento de jogos em linguagem C#. Busco experiência na área de
+      Front-end. Tenho facilidade de trabalhar em equipe, focado e aberto a
+      conselhos e critícas em relação ao meu trabalho.
     </Paragrafo>
     <GitHubSecao>
       <img src="https://github-readme-stats.vercel.app/api?count_private=true%22&include_all_commits=true&show_icons=true&theme=dracula&username=JoksLobo" />
