@@ -13,6 +13,11 @@ export const GitHubSecao = styled.div`
     }
   }
 `
+
+export const Icon = styled.svg`
+  height: 157px;
+`
+
 export const TecSecao = styled.div`
   margin-bottom: 32px;
 
@@ -20,5 +25,9 @@ export const TecSecao = styled.div`
     width: 64px;
     margin-right: 8px;
     margin-top: 8px;
+  }
+
+  .fa-brands.fa-unity {
+    font-size: 70px;
   }
 `

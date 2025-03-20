@@ -72,6 +72,7 @@ const Sobre = () => (
         loading="lazy"
         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
       />
+      <i className="fa-brands fa-unity"></i>
     </TecSecao>
   </section>
 )

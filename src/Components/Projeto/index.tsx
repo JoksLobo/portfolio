@@ -9,7 +9,7 @@ type ProjetoProps = {
   Link: string
 }
 
-const Projeto = ({ Title, Content, Link, Image }: ProjetoProps) => (
+const Projeto = ({ Title, Content, Link }: ProjetoProps) => (
   <Card>
     <Titulo>{Title}</Titulo>
     <Paragrafo tipo="secundario">{Content}</Paragrafo>
